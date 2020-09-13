@@ -1,0 +1,124 @@
+body, #body{
+    background-color: #d52e3f ;
+    padding-bottom: 50px;
+}
+
+.hbd1{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10px;
+    color: #fcedd8;
+    font-family: 'Niconne', cursive;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #eb452b, 
+              10px 10px 0px #efa032, 
+              15px 15px 0px #46b59b, 
+              20px 20px 0px #017e7f, 
+              25px 25px 0px #052939;
+              display: inline-block;
+    align-self: center;        
+    align-content: center; 
+    margin-left: 275px;    
+    animation: tada infinite; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s;
+    animation-delay: 1s; 
+            
+}
+
+
+
+.sidenav {
+    padding: 0px;
+    width: 300px;
+    z-index: 1;
+    float: left;
+  }   
+
+ #icon{
+    border-radius: 75px;
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+  }
+
+  li:hover #icon{
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+
+  li:hover .people{
+    display: inline-block ;
+    cursor: pointer;
+  }
+
+  .people{
+    display: none;
+    text-align: center;
+    background-color: peachpuff;
+    border-radius: 10px;
+    padding:5px 25px 5px 25px;
+    font-style: italic;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid #052939;
+    text-decoration: none;
+    color: black;
+  }
+
+  .people:hover{
+    text-decoration: none;
+    color: red;
+  }
+
+ .song{
+   position: relative;
+   
+   float: right;
+ }
+ #doodle-section{
+   margin-top: 75px;
+ }
+ .facts{
+   font-weight: bolder;
+   font-style: italic;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ .fact-content{
+   font-family: cursive;
+   font-size: large;
+   color: aliceblue;
+ }
+
+ #barabar{
+   font-size: 75px;
+   font-family: 'garamond';
+   color: #FFC300;
+   text-transform: uppercase;
+   text-decoration: underline;
+   animation: fadeInUp 2s ;
+   cursor: default;
+ }
+ #barabar:hover{
+   animation: bounce 2s;
+ }
+
+#meme-vid{
+  margin: 10px;
+}
+#meme-img{
+  position: relative;
+  float: right;
+  margin: 10px;
+}
+
+#girja{
+  margin-left: 100px;
+  animation: wobble 4s infinite;
+  border-radius: 80%;
+}
+.wish{
+  align-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
